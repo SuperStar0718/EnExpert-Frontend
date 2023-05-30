@@ -1,0 +1,25 @@
+.load-peak-main .peak-card {
+  min-height: 170px;
+}
+.load-peak-main .contributors {
+  width: 90% !important;
+  margin: 10px auto 0 auto !important;
+}
+.load-peak-main .load-peak-bar {
+  height: 300px;
+}
+.load-peak-main .peak-area {
+  height: 300px;
+}
+
+@media (max-width: 770px) {
+  .load-peak-main .contributors {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .load-peak-main .contributors {
+    width: 95% !important;
+  }
+}

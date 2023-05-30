@@ -1,0 +1,11 @@
+.modal-popup h4,
+.modal-popup h5 {
+  font-weight: normal !important;
+}
+.modal-popup h4 span,
+.modal-popup h5 span {
+  color: var(--text);
+}
+.ant-modal-body {
+  background-color: var(--background);
+}

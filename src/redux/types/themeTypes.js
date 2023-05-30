@@ -1,0 +1,1 @@
+export const CHANGE_LAYOUT = "CHANGE_LAYOUT";

@@ -1,0 +1,109 @@
+.live-main {
+}
+.live-main .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #131523;
+  font-size: 1rem;
+}
+.live-main .main-title {
+  font-size: 1.12rem;
+}
+.live-main .percent {
+  margin-top: 10px;
+}
+.live-main .value {
+  font-size: 1.75rem;
+  margin-top: 20px;
+  min-height: 30px;
+}
+.live-main .secondary {
+  color: #7e84a3;
+  font-size: 0.75rem;
+}
+
+.live-main .charging {
+  background-image: url("../../Assets/station.png");
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+  justify-content: flex-end;
+}
+.live-main .charging .station-card h5 {
+  text-align: center;
+  font-size: 1rem;
+  opacity: 0.8;
+  margin: 7px 0;
+}
+.live-main .charging .station-card .ant-divider {
+  margin: 8px 0;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.live-main .charging .station-card span {
+  font-size: 0.8rem;
+  color: #7e84a3;
+  font-weight: 600;
+}
+.live-main .charging .station-card svg {
+  font-size: 1rem;
+}
+
+.live-main .live-card {
+  min-height: 160px;
+}
+.live-main .level-section {
+  text-align: center;
+}
+.live-main .live-big-card {
+  height: 400px;
+}
+
+@media (max-width: 770px) {
+  .live-main .live-big-card {
+    height: auto;
+  }
+}
+
+/* ---------------------------------new live page------------------- */
+
+.live-main2 .grid-section {
+  display: grid;
+  /* grid-auto-flow: column; */
+  /* grid-template: 1fr 1fr 1fr / repeat(200px, minmax(200px, 1fr)); */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: auto auto auto;
+
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  gap: 30px;
+}
+
+/* .live-main2 .grid-section .charging {
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 2;
+} */
+
+.live-main2 .solar-thermal {
+  display: flex;
+  flex-direction: column;
+  /* min-height: 6rem; */
+  align-items: flex-start;
+  height: -webkit-fill-available;
+  justify-content: space-around;
+}
+.live-main2 .title {
+  min-height: 30px;
+}
+@media (max-width: 1030px) {
+  .live-main2 .grid-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 770px) {
+  .live-main2 .grid-section {
+    width: 90vw;
+
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

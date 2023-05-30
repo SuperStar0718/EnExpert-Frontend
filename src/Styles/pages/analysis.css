@@ -1,0 +1,71 @@
+.analysis-filters {
+  margin: 30px 0;
+}
+.analysis-filters .radio-div p {
+  margin: 0;
+}
+
+.analysis-filters .radio-div {
+  background-color: white;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 55px;
+  border-radius: 4px;
+  border: 1px solid #d7dbec;
+  color: #131523;
+  font-weight: bold;
+  font-size: 14px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.analysis-filters .radio-div p {
+  cursor: pointer;
+  transition: 0.3 ease;
+  min-width: 100px;
+  min-height: 40px;
+  padding: 5px;
+  border-radius: 10px;
+  vertical-align: middle;
+  font-weight: bold;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1.2px;
+  font-size: 14px;
+}
+
+.analysis-filters .radio-div .active {
+  background-color: #37a1db;
+  color: white;
+}
+.analysis-filters .right-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* drawer styling */
+
+.analysis-drawer .ant-switch.ant-switch {
+  height: 13px;
+}
+.analysis-drawer .ant-switch-handle.ant-switch-handle {
+  top: -4px;
+  /* left: 0; */
+}
+.analysis-drawer .filter-head {
+  margin-top: 30px;
+}
+.analysis-drawer .filter-switch {
+  margin: 10px 0;
+}
+
+@media (max-width: 550px) {
+  .analysis-filters .radio-div {
+    justify-content: flex-start;
+    padding: 10px;
+  }
+}

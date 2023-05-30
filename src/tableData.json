@@ -1,0 +1,160 @@
+{
+  "data1": [
+    {
+      "key": 1,
+      "srno": 1,
+      "author": "Mike",
+      "book": "Over The Sky",
+      "amount": "$ 200"
+    },
+    {
+      "key": 2,
+      "srno": 2,
+      "author": "John",
+      "book": "Mountain",
+      "amount": "$ 300"
+    },
+    {
+      "key": 3,
+      "srno": 3,
+      "author": "Hassan",
+      "book": "Diamond",
+      "amount": "$ 150"
+    },
+    {
+      "key": 4,
+      "srno": 4,
+      "author": "Khizram",
+      "book": "Awesome Book",
+      "amount": "$ 900"
+    }
+  ],
+  "columns1": [
+    {
+      "title": "SR NO",
+      "dataIndex": "srno",
+      "key": "srno"
+    },
+    {
+      "title": "Author",
+      "dataIndex": "author",
+      "key": "author"
+    },
+    {
+      "title": "Book",
+      "dataIndex": "book",
+      "key": "book"
+    },
+    {
+      "title": "Amount",
+      "dataIndex": "amount",
+      "key": "amount"
+    }
+  ],
+  "data2": [
+    {
+      "key": 1,
+      "date": "2021-9-12",
+      "name": "Mike",
+      "status": "Over The Sky",
+      "amount": "$ 200"
+    },
+    {
+      "key": 2,
+      "date": "2021-9-12",
+      "name": "John",
+      "status": "Mountain",
+      "amount": "$ 300"
+    },
+    {
+      "key": 3,
+      "date": "2021-9-12",
+      "name": "Hassan",
+      "status": "Diamond",
+      "amount": "$ 150"
+    },
+    {
+      "key": 4,
+      "date": "2021-9-12",
+      "name": "Khizram",
+      "status": "Awesome Book",
+      "amount": "$ 900"
+    }
+  ],
+  "columns2": [
+    {
+      "title": "Date",
+      "dataIndex": "date",
+      "key": "date"
+    },
+    {
+      "title": "User",
+      "dataIndex": "name",
+      "key": "name"
+    },
+    {
+      "title": "Payment Status",
+      "dataIndex": "status",
+      "key": "status"
+    },
+    {
+      "title": "Amount",
+      "dataIndex": "amount",
+      "key": "amount"
+    }
+  ],
+  "librarians": [
+    {
+      "key": 1,
+      "srno": 1,
+      "name": "Mike",
+      "nic": "Over The Sky",
+      "contact": "$ 200",
+      "email": "$ 200",
+      "access": "$ 200",
+      "library": "$ 200",
+      "service": "$ 200",
+      "status": "$ 200",
+      "action": "$ 200"
+    },
+    {
+      "key": 2,
+      "srno": 2,
+      "name": "John",
+      "nic": "Mountain",
+      "contact": "$ 300",
+      "email": "$ 300",
+      "access": "$ 300",
+      "library": "$ 300",
+      "service": "$ 300",
+      "status": "$ 300",
+      "action": "$ 300"
+    },
+    {
+      "key": 3,
+      "srno": 3,
+      "name": "Hassan",
+      "nic": "Diamond",
+      "contact": "$ 150",
+      "email": "$ 150",
+      "access": "$ 150",
+      "library": "$ 150",
+      "service": "$ 150",
+      "status": "$ 150",
+      "action": "$ 150"
+    },
+    {
+      "key": 4,
+      "srno": 4,
+      "name": "Khizram",
+      "nic": "Awesome Book",
+      "contact": "$ 900",
+      "email": "$ 900",
+      "access": "$ 900",
+      "library": "$ 900",
+      "service": "$ 900",
+      "status": "$ 900",
+      "action": "$ 900"
+    }
+  ]
+}

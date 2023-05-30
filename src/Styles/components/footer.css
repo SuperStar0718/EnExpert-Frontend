@@ -1,0 +1,29 @@
+.footer-main {
+  box-shadow: var(--box-shadow);
+  padding: 30px;
+}
+.footer-main .Buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.footer-main .content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-main .content img {
+  width: 200px;
+  margin-bottom: 40px;
+  height: auto;
+}
+.footer-main .content p,
+.footer-main .content p a {
+  /* color: #000000c4 !important; */
+  color: var(--secondaryText) !important;
+  margin-bottom: 15px;
+}
+.footer-main .content p:last-child {
+  font-weight: bold !important;
+}

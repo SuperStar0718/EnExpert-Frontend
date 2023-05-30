@@ -1,0 +1,237 @@
+.home-main h1 {
+  margin-bottom: 0;
+  /* color: black !important; */
+}
+
+.electric-cost,
+.electric-consumption {
+  display: flex;
+  min-height: 6rem;
+  align-items: flex-end;
+}
+.electric-cost {
+  width: 100%;
+}
+
+.electric-cost-outer .title,
+.electric-consumption-outer .title {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.electric-cost-outer-dropdown,
+.electric-consumption-outer-dropdown,
+.stacked-pie-outer-dropdown {
+  color: var(--secondaryText);
+  font-size: 0.8rem;
+}
+
+.electric-cost-outer {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 5%;
+}
+.electric-cost-outer,
+.electric-consumption-outer,
+.stacked-pie-outer {
+  box-shadow: 0px 1px 4px #13152329;
+  border-radius: 6px;
+  background-color: var(--background);
+  padding: 20px 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.electric-consumption .electric-consumption-left,
+.electric-consumption-right {
+  width: 50%;
+}
+.electric-cost .electric-cost-left {
+  width: 35%;
+}
+.electric-cost .electric-cost-right {
+  width: 65%;
+}
+.electric-consumption .electric-consumption-left .title,
+.electric-cost .electric-cost-left .title {
+  color: var(--text) !important;
+  /* font-weight: 400 !important; */
+}
+.electric-consumption .electric-consumption-left .sub-title,
+.electric-cost .electric-cost-left .sub-title {
+  color: var(--text2) !important;
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12px;
+  line-height: 42px;
+  margin-bottom: 0;
+}
+.electric-consumption .electric-consumption-left .percentage-wrapper {
+  display: flex;
+  align-items: flex-end;
+}
+
+.electric-consumption
+  .electric-consumption-left
+  .percentage-wrapper
+  .percentage,
+.electric-consumption .electric-consumption-left .percentage-wrapper .text,
+.electric-cost .electric-cost-left .percentage-wrapper .percentage,
+.electric-cost .electric-cost-left .percentage-wrapper .text {
+  color: var(--secondaryText);
+  font-size: 12px;
+}
+.electric-cost .electric-cost-left .percentage-wrapper .percentage,
+.electric-consumption
+  .electric-consumption-left
+  .percentage-wrapper
+  .percentage {
+  font-weight: 600;
+  font-size: 1rem;
+  /* display: flex;
+  align-items: center; */
+}
+
+.electric-consumption
+  .electric-consumption-left
+  .percentage-wrapper
+  .percentage {
+  display: flex;
+  align-items: center;
+}
+
+.electric-consumption-right {
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: center; */
+}
+.electric-consumption-right .percentage-wrapper-left {
+  margin-right: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+}
+.electric-consumption-right .percentage-wrapper-left p {
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: 0.8rem;
+  color: #7e84a3;
+  /* color: var(--secondaryText); */
+}
+
+.percentage-wrapper-right {
+  width: 100%;
+}
+.percentage-wrapper-right :nth-child(1) .ant-progress-bg {
+  background-color: var(--primary);
+}
+.percentage-wrapper-right :nth-child(2) .ant-progress-bg {
+  background-color: var(--green);
+}
+.percentage-wrapper-right :nth-child(3) .ant-progress-bg {
+  background-color: var(--yellow);
+}
+.percentage-wrapper-right :nth-child(4) .ant-progress-bg {
+  background-color: var(--orange);
+}
+
+.electric-cost-right {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.electric-cost-right > :not(:last-child) {
+  /* margin-right: 1rem; */
+}
+.electric-cost .electric-cost-right .item {
+  width: fit-content;
+}
+.electric-cost .electric-cost-right .item svg {
+  stroke-width: 2;
+}
+.electric-cost .electric-cost-right .item > :not(:last-child) {
+  margin-bottom: 0.2rem !important;
+}
+.electric-cost .electric-cost-right .item .ant-progress-text {
+  font-size: 0.6rem;
+}
+.electric-cost .electric-cost-right .item .sub-title {
+  color: var(--text) !important;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.electric-cost-right .ant-progress-text {
+  color: var(--secondaryText) !important;
+}
+.ant-progress-bg {
+  border-radius: 0 10px 10px 0 !important;
+}
+.ant-progress-inner {
+  border-radius: 0 10px 10px 0 !important;
+  background-color: #e6e9f4;
+}
+
+@media (max-width: 1300px) {
+  .electric-cost .electric-cost-left {
+    width: 100%;
+  }
+  .electric-cost .electric-cost-right {
+    width: 100%;
+  }
+  .electric-cost-right {
+    justify-content: space-evenly;
+  }
+  .electric-cost,
+  .electric-consumption {
+    flex-direction: column;
+  }
+  .electric-cost > :not(:last-child),
+  .electric-consumption > :not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .electric-consumption .electric-consumption-left,
+  .electric-consumption-right {
+    width: 100%;
+  }
+}
+@media (max-width: 770px) {
+  .electric-consumption-outer {
+    height: auto !important;
+  }
+  .electric-consumption-outer .column-chart {
+    height: 200px !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .electric-cost-outer {
+    min-height: auto;
+  }
+  .electric-cost,
+  .electric-consumption {
+    flex-direction: column;
+  }
+  .electric-cost > :not(:last-child),
+  .electric-consumption > :not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  .electric-consumption .electric-consumption-left,
+  .electric-consumption-right,
+  .electric-cost .electric-cost-left,
+  .electric-cost .electric-cost-right {
+    width: 100% !important;
+  }
+  .electric-consumption-right {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .electric-consumption-outer .column-chart {
+    height: 210px !important;
+  }
+}

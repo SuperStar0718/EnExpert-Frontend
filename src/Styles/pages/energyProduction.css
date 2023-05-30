@@ -1,0 +1,110 @@
+.energy-main .live-card {
+  min-height: 160px;
+}
+.energy-main .live-big-card {
+  min-height: 600px;
+}
+
+.energy-main .tinycolumn {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+}
+.energy-main .tiny-column-card {
+  min-height: 220px;
+}
+.energy-main .heatmap-card {
+  box-shadow: 0px 1px 4px #13152329;
+  border-radius: 6px;
+  background-color: var(--background);
+  padding: 20px 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.energy-main .chart-wrapper {
+  width: 100%;
+  height: 8rem;
+}
+/* .energy-main .flex-between > :not(:last-child) {
+  margin-bottom: 1rem !important;
+} */
+/* @media (max-width: 1400px) {
+  .energy-main .flex-between {
+    flex-direction: column;
+  }
+} */
+@media (max-width: 550px) {
+  /* .energy-main .tinycolumn {
+    width: 100%;
+    margin-top: 10px;
+    height: 100px;
+  } */
+
+  .energy-main .tiny-column-card {
+    min-height: auto;
+  }
+}
+@media (max-width: 770px) {
+  .energy-main .live-big-card {
+    min-height: 600px;
+  }
+  .energy-main .white-card {
+    height: auto !important;
+  }
+  .energy-main .heatmap-card {
+    height: 700px !important;
+  }
+}
+
+/* ----------emobility page --------------------- */
+
+.energy-main .charging-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.energy-main .charging-card .section {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.energy-main .charging-card .section p {
+  font-weight: 600;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+.energy-main .ant-switch.ant-switch {
+  background-color: var(--red);
+}
+
+.energy-main .ant-switch-checked.ant-switch-checked {
+  background-color: var(--green) !important;
+}
+/* .energy-main .ant-form-vertical .ant-form-item-label {
+  padding: 0;
+} */
+.energy-main .ant-collapse .ant-collapse-item .ant-collapse-header {
+  border-bottom: 1px solid #ccc;
+  padding: 8px 0;
+}
+.energy-main .ant-collapse-content .ant-collapse-content-box {
+  padding: 16px 0;
+}
+.energy-main .ant-collapse-content .ant-collapse-content-box p {
+  padding: 10px !important;
+}
+.energy-main .ant-progress-status-success .ant-progress-bg {
+  background-color: var(--primary);
+}
+.energy-main .ant-progress-inner {
+  border-radius: 10px !important;
+}
+.energy-main .ant-form-item.ant-form-item {
+  margin-bottom: 0;
+}

@@ -1,0 +1,48 @@
+.market-card {
+  background-color: var(--background);
+  /* background-color: white; */
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  min-height: 200px;
+}
+.market-card .top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.market-card h4 {
+  color: var(--primaryText) !important;
+}
+.market-card p {
+  font-size: 18px;
+}
+.market-card .desc {
+  font-size: 16px;
+}
+.market-card .secondary {
+  color: var(--secondaryText) !important;
+}
+.market-card .price {
+  color: var(--secondary-color) !important;
+}
+.market-card button {
+  color: var(--secondary-color) !important;
+  height: auto;
+  width: max-content;
+}
+
+@media (max-width: 550px) {
+  .market-card h4 {
+    font-size: 12px;
+  }
+  .market-card p {
+    font-size: 11px;
+  }
+  .market-card .desc {
+    font-size: 12px;
+  }
+}
